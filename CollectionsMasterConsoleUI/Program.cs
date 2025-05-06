@@ -38,12 +38,12 @@ namespace CollectionsMasterConsoleUI
                 2) Second way, Create a custom method (scroll to bottom of page to find ⬇⬇⬇)
             */
             Array.Reverse(numbers);
-
             Console.WriteLine("All Numbers Reversed:");
 
             Console.WriteLine("---------REVERSE CUSTOM------------");
 
             Console.WriteLine("-------------------");
+            ReverseArray(numbers);
 
             //TODO: Create a method that will set numbers that are a multiple of 3 to zero then print to the console all numbers
             Console.WriteLine("Multiple of three = 0: ");
@@ -94,13 +94,12 @@ namespace CollectionsMasterConsoleUI
             } while (!isANumber);
             
             NumberChecker(numbersList, searchNumber);
-
-            Console.WriteLine("What number will you search for in the number list?");
+            
             
             Console.WriteLine("-------------------");
 
             Console.WriteLine("All Numbers:");
-            //UNCOMMENT this method to print out your numbers from arrays or lists
+           //UNCOMMENT this method to print out your numbers from arrays or lists
             NumberPrinter(numbersList);
             Console.WriteLine("-------------------");
 
